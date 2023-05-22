@@ -13,7 +13,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 auto;
   margin: 0 auto;
   height: 100%;
   width: 1024px;
@@ -69,7 +68,7 @@
     color: #FAFAFA;
 }
 
-.main {
+.main-container , .profile {
     background-color: #ECEFF1;
 }
 
@@ -159,4 +158,260 @@
     background-position: center;
 }
 
+.feature-content {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 90px;
+}
 
+.feature-content-item {
+    width: 320px;
+    height: auto;
+}
+
+.feature-content-item2 {
+    margin: 0 10px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.feature-content-item i {
+    font-size: 60px;
+}
+
+.feature-content-item h4 {
+    font-size: 20px;
+    color: #000000;
+    padding: 10px 0;
+}
+
+.feature-content-item p {
+    font-size: 16px;
+    color: #000000;
+}
+
+.profile-content {
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 512px;
+    text-align: center;
+}
+
+.profile-img img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.profile-box {
+    width: 512px;
+}
+
+.profile-box h4 {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.profile-box p {
+    font-size: 16px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.contat {
+    width: 800px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 90px;
+}
+
+.contact-box {
+    width: 400px;
+    text-align: center;
+}
+
+.contact-row {
+    text-align: left;
+    display: inline-block;
+}
+
+.contact-box h4 {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.contact-box p {
+    padding-bottom: 20px;
+}
+
+.sns-icon {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.sns-icon2 {
+    margin: 0 20px;
+}
+
+.footer {
+    background-color: #EC715F;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+}
+
+.footer-text p {
+    font-size: 16px;
+    color: #FAFAFA;
+}
+
+.menu-toggle {
+  display: none;
+  color: #ffffff;
+  height: 100%;
+}
+
+.menu-toggle i {
+    font-size: 40px;
+}
+
+@media screen and (max-width:768px) {
+body {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.header {
+    height: 50px;
+}
+
+.navbar {
+  padding: 5px 5%;
+  height: 50px;
+  width: 100%;
+}
+
+.logo img {
+  height: 100%;
+}
+
+.menu-toggle {
+    display: block;
+}
+
+.nav-links {
+    display: none;
+}
+
+.main-visual {
+    background-image: url(img/code.png);
+    height: 650px;
+}
+
+.main-visual-text {
+    font-size: 40px;
+}
+
+.main-visual-name {
+    font-size: 18px;
+}
+
+.main-container {
+    height: 100%;
+}
+
+.main-img1 {
+    display: block;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.main-img2 {
+    display: block;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.img1 {
+    display: none;
+}
+.img2 {
+    margin: 0 auto;
+}
+.img3 {
+    display: none;
+}
+.img4 {
+    margin: 0 auto 10px auto;
+}
+.img5 {
+    display: none;
+}
+.img6 {
+    margin: 0 auto;
+}
+
+.feature-content {
+    display: block;
+}
+
+.feature-content-item {
+    margin: 0 auto;
+}
+
+.feature-content-item2 {
+    margin: 10px auto;
+}
+
+.profile-content {
+    display: block;
+    margin: 0 auto
+}
+
+.profile-img {
+    width: auto;
+    text-align: center;
+}
+
+.profile-box {
+    width: auto;
+    text-align: center;
+}
+
+.contat {
+    width: auto;
+}
+
+.contact-container {
+    display: block;
+    padding-bottom: 90px;
+}
+
+.contact-box {
+    width: auto;
+}
+
+.contact-row {
+    text-align: center;
+    display: block;
+}
+
+.sns-icon {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.sns-icon2 {
+    margin: 0 8px;
+}
+}
